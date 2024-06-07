@@ -58,6 +58,7 @@ main .area aside{
     display: none;
     width: 30rem;
 }
+
 @media (prefers-color-scheme: dark){
     main nav .logo{        
         background-image: url(../images/logo-white.png);

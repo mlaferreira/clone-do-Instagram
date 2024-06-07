@@ -8,6 +8,7 @@
     --story-color2: #eb0f7c;
     --side-link: #0095f6;
     --white: #fff;
+    --border-active: #0f5a08;
 }
 @media (prefers-color-scheme: dark){
     :root{
