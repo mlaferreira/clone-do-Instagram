@@ -1,3 +1,4 @@
+/* BASE */
 :root{
     --background: #fff;
     --secondary: #ccc;
@@ -35,4 +36,15 @@ body{
     font-size: 1.6rem;
     min-height: 100%;
 
+}
+.icon{
+    display: inline-block;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.icon svg{
+    color: var(--primary);
+}
+.icon i{
+    color: var(--primary);
 }
