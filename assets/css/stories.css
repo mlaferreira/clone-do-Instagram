@@ -1,0 +1,43 @@
+/* STORIES */
+.stories{
+    width: 100%;
+    padding: 1rem 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.stories-scroll{
+    display: flex;
+    gap: 1rem;
+}
+.scroll-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    cursor: pointer;
+    
+}
+.scroll-item-avatar{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    background: linear-gradient(45deg, var(--story-color1) 0%, var(--story-color2) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+
+}
+.scroll-item p{
+    font-size: 1.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.scroll-item-avatar img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-foreground);
+
+}
