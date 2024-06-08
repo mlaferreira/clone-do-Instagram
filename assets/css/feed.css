@@ -27,9 +27,7 @@
 .feed-item-header-icons--icon{
     cursor: pointer;
 }
-.feed-item-body{
-    padding: 0 1rem;
-}
+
 .feed-item-body img{
     width: 100%;
     height: auto;
