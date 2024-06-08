@@ -1,0 +1,71 @@
+/* FEED */
+.feed{
+    padding-bottom: 2rem;
+}
+.feed-item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.feed-item-header-avatar{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 1.5rem;
+}
+.feed-item-header-avatar img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.feed-item-header-avatar span{
+    font-size: 1.5rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+.feed-item-header-icons--icon{
+    cursor: pointer;
+}
+.feed-item-body img{
+    width: 100%;
+    height: auto;
+}
+.feed-item-footer-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+.feed-item-footer-btn--left,
+.feed-item-footer-btn--right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.feed-item-footer-btn--left,
+.feed-item-footer-btn--right
+{
+    cursor: pointer;
+}
+.feed-item-footer-likes p{
+    padding: 0 1rem;
+
+}
+.feed-item-footer-likes p,
+.feed-item-footer-comments p,
+.feed-item-footer-info p{
+    padding: .5rem;
+}
+.feed-item-footer-likes p span,
+.feed-item-footer-comments span{
+    font-weight: bold;
+}
+.feed-item-footer-info p{
+    color: var(--secondary-foreground);
+    font-size: 1.3rem;
+}
+.feed-item-footer-info p span{
+    color: var(--primary);
+    font-weight: bold;
+}
